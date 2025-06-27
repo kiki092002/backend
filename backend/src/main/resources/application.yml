@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: OnlineShopping
+  datasource:
+    url: jdbc:mysql://localhost:3306/onlineshopping?userSSL=false&serverTimezone=UTC
+    username: root
+    password: thuynga123!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+
+
+
